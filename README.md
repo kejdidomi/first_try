@@ -65,9 +65,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Prequizites
 To run the program you must have node.js (we need it for npm), xampp and composer
-Node: https://nodejs.org/en/download/  (you need to be able to run npm commands in cmd so you can try `npm -V` to see if you have npm installed)
-xampp: https://www.apachefriends.org/download.html  (preferably get the version that supports php 8.0)
-composer: https://getcomposer.org/download/
+1. Node: https://nodejs.org/en/download/  (you need to be able to run npm commands in cmd so you can try `npm -V` to see if you have npm installed)
+2. xampp: https://www.apachefriends.org/download.html  (preferably get the version that supports php 8.0)
+3. composer: https://getcomposer.org/download/
 ## Deployment
 1. open xampp control panel and start apache service and mysql service 
 2. create a database in myphpadmin and call it laravelblog
