@@ -25,10 +25,10 @@ mx-auto py-15 border-b border-gray-200">
             Struggling to be a better web developer
         </h2>
         <p class="py-8 text-gray-500 text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            This is a good opportunity to share your ideas and discuss them.
         </p>
         <p class="font-extrabold text-gray-600 test-xl pb-9">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsam voluptatibus deleniti.
+            We beleive in "help is out there", and we are looking forward for you to reach out and get help as well as be helpful to others
         </p>
         <a href="/blog" class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
         Find out more
@@ -64,10 +64,6 @@ mx-auto py-15 border-b border-gray-200">
         Recent Posts
     </h2>
 
-    <p class="m-auto w-4/5 text-gray-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum blanditiis, enim harum, cum soluta officia nisi.
-    </p>
-
 </div>
 
 <div class="sm:grid grid-cols-2 w-4/5 m-auto" >
@@ -77,9 +73,10 @@ mx-auto py-15 border-b border-gray-200">
                 PHP
             </span>
             <h3 class="text-xl font-bold py-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam tempora nulla voluptas sapiente! A porro voluptate reprehenderit ducimus ipsam voluptas, repellat non sed sunt consequatur modi doloribus. Fuga, accusantium excepturi.
+                PHP is a popular general-purpose scripting language that is especially suited to web development.
+                Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
             </h3>
-            <a href="" class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            <a href="/blog" class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                 Find Out more
             </a>
         </div>
