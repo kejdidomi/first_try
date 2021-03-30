@@ -60,3 +60,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+## Prequizites
+To run the program you must have node.js (we need it for npm), xampp and composer
+1. Node: https://nodejs.org/en/download/  (you need to be able to run npm commands in cmd so you can try `npm -V` to see if you have npm installed)
+2. xampp: https://www.apachefriends.org/download.html  (preferably get the version that supports php 8.0)
+3. composer: https://getcomposer.org/download/
+## Deployment
+1. open xampp control panel and start apache service and mysql service 
+2. create a database in myphpadmin and call it laravelblog
+3. Download the code from this repository (you can use `git clone https://github.com/kejdidomi/first_try` in cmd if you have git installed)
+4. rename the .env.example to .env and inside the .env file change `DB_DATABASE=laravel` to `DB_DATABASE=laravelblog`
+5. Open 2 command prompts and navigate to the downloaded folder of the project in both of them
+6. In the first cmd run `php artisan ui tailwindcss --auth` if this doesn't work the first time run `composer update` `npm remove laravel-mix` `npm install laravel-mix --save-dev` `npm install cross-env --save-dev` `npm run watch`
+7. in the second cmd run `php artisan migrate`, `php artisan key:generate` and `php artisan serve`
+8. open your browser and follow the link provided after you put `php artisan serve`
+9. from here use credentials to register and then log in and explore the blog
